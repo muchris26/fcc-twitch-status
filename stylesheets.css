@@ -1,0 +1,63 @@
+img {
+  opacity: .3;
+  border-radius: 5px;
+}
+body {
+  background-color: #EEE;
+  font-family: consolas, courier;
+}
+#usersList {
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+}
+#imgField {
+  position: relative;
+}
+#userInfo {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+}
+.userRow {
+  padding: 1% 0% 1% 0%;
+}
+.usernameField {
+  height: 150px;
+  width: 300px;
+  background-color: rgba(0,0,255,.6);
+  opacity: .7;
+  font-size: 1.5em;
+  padding: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.statusField {
+  height: 150px;
+  background-color: rgba(128,128,128,.7);
+  width: 300px;
+  font-size: 1em;
+  padding: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.dataField {
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+.button-row {
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+}
+#refresh {
+  width: 300px;
+  font-size: 1.5em;
+}
