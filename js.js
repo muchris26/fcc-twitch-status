@@ -36,6 +36,7 @@ function checkTwitch() {
           else if (data.stream.channel.views > 1) {
             // console.log(data.stream.channel);
             $('#status' + data.stream.channel.display_name).empty();
+            $('#img' + data.stream.channel.display_name).addClass("active");
             $('#status' + data.stream.channel.display_name).append("<a href='" + data.stream.channel.url + "' target='_blank'>" + data.stream.channel.status + "</a>");
           }
           });

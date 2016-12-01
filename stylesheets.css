@@ -1,6 +1,10 @@
 img {
   opacity: .3;
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.active {
+  opacity: .75;
 }
 body {
   background-color: #EEE;
@@ -9,7 +13,7 @@ body {
 #usersList {
   margin-right: auto;
   margin-left: auto;
-  width: 300px;
+  width: 600px;
 }
 #imgField {
   position: relative;
@@ -17,6 +21,7 @@ body {
 #userInfo {
   height: 300px;
   width: 300px;
+  margin-left: 300px;
   position: absolute;
 }
 .userRow {
@@ -29,7 +34,7 @@ body {
   opacity: .7;
   font-size: 1.5em;
   padding: 20px;
-  border-top-left-radius: 5px;
+  border-top-left-radius: 0px;
   border-top-right-radius: 5px;
 }
 .statusField {
@@ -38,7 +43,7 @@ body {
   width: 300px;
   font-size: 1em;
   padding: 20px;
-  border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 0px;
   border-bottom-right-radius: 5px;
 }
 .dataField {
@@ -55,9 +60,9 @@ a:hover {
 .button-row {
   margin-right: auto;
   margin-left: auto;
-  width: 300px;
+  width: 600px;
 }
 #refresh {
-  width: 300px;
+  width: 600px;
   font-size: 1.5em;
 }
